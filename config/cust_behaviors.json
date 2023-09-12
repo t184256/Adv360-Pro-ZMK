@@ -1,0 +1,42 @@
+[
+	{
+		"code": "&kp LS(RIGHT_BRACKET)",
+		"name": "&kp LS(RIGHT_BRACKET)",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&backspace_mod",
+		"name": "&backspace_mod",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&bspe_mod",
+		"name": "&bspe_mod",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&bsp_mod",
+		"name": "&bsp_mod",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	},
+	{
+		"code": "&minus_pipe",
+		"name": "&minus_pipe",
+		"params": [
+			"code"
+		],
+		"type": "UD"
+	}
+]
