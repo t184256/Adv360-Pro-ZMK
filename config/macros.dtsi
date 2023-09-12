@@ -1,36 +1,108 @@
-  macro_quotes: macro_quotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
-    #binding-cells = <0>;
-    bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
-  };
-  macro_dquotes: macro_dquotes {
-    compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
-    #binding-cells = <0>;
-    bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
-  };
-  macro_braces: macro_braces {
-    compatible = "zmk,behavior-macro";
-    label = "macro_braces";
-    #binding-cells = <0>;
-    bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
-  };
-  macro_parens: macro_parens {
-    compatible = "zmk,behavior-macro";
-    label = "macro_parens";
-    #binding-cells = <0>;
-    bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
-  };
-  macro_brackets: macro_brackets {
-    compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
-    #binding-cells = <0>;
-    bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
-  };
-  macro_kinesis: macro_kinesis {
-    compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
-    #binding-cells = <0>;
-    bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
-  };
+macro_backslash_to_0: macro_backslash_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_backslash_to_0";
+#binding-cells = <0>;
+bindings = <&kp BACKSLASH>, <&to 0>;
+};
+macro_grave_to_0: macro_grave_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_grave_to_0";
+#binding-cells = <0>;
+bindings = <&kp GRAVE>, <&to 0>;
+};
+macro_equal_to_0: macro_equal_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_equal_to_0";
+#binding-cells = <0>;
+bindings = <&kp EQUAL>, <&to 0>;
+};
+macro_lock_to_0: macro_lock_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_lock_to_0";
+#binding-cells = <0>;
+bindings = <&kp LS(LG(N8))>, <&to 0>;
+};
+macro_plus_to_0: macro_plus_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_plus_to_0";
+#binding-cells = <0>;
+bindings = <&kp LS(EQUAL)>, <&to 0>;
+};
+macro_rcb_to_0: macro_rcb_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_rcb_to_0";
+#binding-cells = <0>;
+bindings = <&kp LS(RIGHT_BRACKET)>, <&to 0>;
+};
+macro_lcb_to_0: macro_lcb_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_lcb_to_0";
+#binding-cells = <0>;
+bindings = <&kp LS(LEFT_BRACKET)>, <&to 0>;
+};
+macro_rsb_to_0: macro_rsb_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_rsb_to_0";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_BRACKET>, <&to 0>;
+};
+macro_lsb_to_0: macro_lsb_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_lsb_to_0";
+#binding-cells = <0>;
+bindings = <&kp LEFT_BRACKET>, <&to 0>;
+};
+macro_tilde_to_0: macro_tilde_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde_to_0";
+#binding-cells = <0>;
+bindings = <&kp LS(GRAVE)>, <&to 0>;
+};
+macro_underscore_to_0: macro_underscore_to_0{
+compatible = "zmk,behavior-macro";
+label = "macro_underscore_to_0";
+#binding-cells = <0>;
+bindings = <&kp LS(MINUS)>, <&to 0>;
+};
+macro_quotes: macro_quotes{
+compatible = "zmk,behavior-macro";
+label = "macro_quotes";
+#binding-cells = <0>;
+bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
+};
+macro_dquotes: macro_dquotes{
+compatible = "zmk,behavior-macro";
+label = "macro_dquotes";
+#binding-cells = <0>;
+bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
+};
+macro_braces: macro_braces{
+compatible = "zmk,behavior-macro";
+label = "macro_braces";
+#binding-cells = <0>;
+bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
+};
+macro_parens: macro_parens{
+compatible = "zmk,behavior-macro";
+label = "macro_parens";
+#binding-cells = <0>;
+bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
+};
+macro_brackets: macro_brackets{
+compatible = "zmk,behavior-macro";
+label = "macro_brackets";
+#binding-cells = <0>;
+bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
+};
+macro_kinesis: macro_kinesis{
+compatible = "zmk,behavior-macro";
+label = "macro_kinesis";
+#binding-cells = <0>;
+bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
+};
+macro_od: macro_od{
+compatible = "zmk,behavior-macro";
+label = "macro_od";
+#binding-cells = <0>;
+bindings = <&mo 1>, <&kp BACKSPACE>;
+};
